@@ -60,7 +60,7 @@ spec:
   selector:
     app: minio
   ports:
-    port: 9090
+    port: 9001
     targetPort: 9000
     protocal: TCP
   type: ClusterIP
